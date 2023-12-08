@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-08 18:51:29.141490",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "github_name_section",
+  "name1"
+ ],
+ "fields": [
+  {
+   "fieldname": "github_name_section",
+   "fieldtype": "Section Break",
+   "label": "github name "
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-08 18:52:06.274239",
+ "modified_by": "Administrator",
+ "module": "test_after_github",
+ "name": "github_test",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
